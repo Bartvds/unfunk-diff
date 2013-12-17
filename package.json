@@ -48,6 +48,7 @@
     "tslint-path-formatter": "0.1",
     "chai": "~1.8.1",
     "mkdirp": "~0.3.5",
-    "source-map-support": "~0.2.5"
+    "source-map-support": "~0.2.5",
+    "grunt-ts": "~1.5.0"
   }
 }
