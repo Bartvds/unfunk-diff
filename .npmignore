@@ -1,0 +1,13 @@
+.npmignore
+.gitignore
+src
+test
+.jshintrc
+Gruntfile.js
+typings
+tsd-config.json
+/*.tgz
+/.idea
+/media
+/.travis.yml
+/test/_tmp.test.js

@@ -1,0 +1,11 @@
+- name: obj B
+|     : |||+-
++ name: objA 
+- propA:  ü\tspecial\\ B \n 
+|      : "||||||||||||+-|||"
++ propA:  ü\tspecial\\A  \n 
+
+          ©♥ 
+         "||"
+          ©♥ 
+. escA: "x\\xü"

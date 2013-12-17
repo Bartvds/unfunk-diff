@@ -1,0 +1,5 @@
+. name: namesA
+. "ü\tspecial \n©\\♥": 
+  . 0: xxx
+. "space out": 
+  . 0: xxx
