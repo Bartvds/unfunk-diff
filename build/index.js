@@ -705,5 +705,24 @@ var unfunk;
     })();
     unfunk.DiffFormatter = DiffFormatter;
 })(unfunk || (unfunk = {}));
+var unfunk;
+(function (unfunk) {
+    var ministyle = require('ministyle');
+
+    function ansi(valueA, valueB, maxWidth) {
+        if (typeof maxWidth === "undefined") { maxWidth = 80; }
+        var formatter = new unfunk.DiffFormatter(ministyle.ansi(), maxWidth);
+        return formatter.getStyledDiff(valueA, valueB);
+    }
+    unfunk.ansi = ansi;
+
+    function plain(valueA, valueB, maxWidth) {
+        if (typeof maxWidth === "undefined") { maxWidth = 80; }
+        var formatter = new unfunk.DiffFormatter(ministyle.plain(), maxWidth);
+        return formatter.getStyledDiff(valueA, valueB);
+    }
+    unfunk.plain = plain;
+})(unfunk || (unfunk = {}));
+
 (module).exports = unfunk;
 //# sourceMappingURL=index.js.map

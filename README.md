@@ -6,15 +6,15 @@
 
 ## What?
 
-Most diff renderers you'd find on npm (either object diff or string diffs) are not usable without colours. Object diffs usually lack a string diff representation which makes it difficult to spot subtle changes in string values deep in the objects structure. Unfunk-diff aims to integrate both to allow debugging of object and string differences, optionally without colour support.
+The diff renderers on npm (either object diff or string diffs) are not usable on displays without colour support. Object diffs usually lack a string diff representation which makes it difficult to spot subtle changes in string values deep in the objects structure. Unfunk-diff aims to integrate both to allow debugging of object and string differences, optionally without colour support.
 
 * String-diff algorithm is [jsDiff](https://github.com/kpdecker/jsdiff). 
 * Object-diff algorithm is [objectDiff](https://github.com/NV/objectDiff.js) with nested string-diff. May currently be even stricter then your assertions!
-* Style output is [ministyle](https://github.com/Bartvds/ministyle), which bundles with plain text, ANSI and HTML / CSS output.
+* Style output abstracted by [ministyle](https://github.com/Bartvds/ministyle).
 
 ## Examples
 
-See the [travis-ci build log](https://travis-ci.org/Bartvds/unfunk-diff) for various examples (used with [mocha-unfunk-reporter](https://github.com/Bartvds/mocha-unfunk-reporter)).
+See the [travis-ci build log](https://travis-ci.org/Bartvds/unfunk-diff) for various examples (tests displayed with [mocha-unfunk-reporter](https://github.com/Bartvds/mocha-unfunk-reporter)).
 
 ## Usage
 
@@ -28,12 +28,21 @@ $ npm install unfunk-diff
 
 ## API
 
+Minimal:
+
+````js
+console.log(formatter.ansi(valueA, valueB));
+console.log(formatter.plain(valueA, valueB));
+````
+
+Full version:
+
 ````js
 // get the constructor
 var DiffFormatter = require('unfunk-diff').DiffFormatter;
 
 // get a ministyle
-var style = require('ministyle').ansi();
+var style = require('ministyle').css();
 
 // pass the ministyle and line wrapping width
 var formatter = new DiffFormatter(style, 80);
