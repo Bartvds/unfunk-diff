@@ -10,7 +10,7 @@ module helper {
 		args.unshift('test', 'tmp');
 
 		var dest = path.resolve.apply(path, args);
-		mkdirp.sync(path.dirname(dest), parseInt('0644', 8));
+		mkdirp.sync(path.dirname(dest), parseInt('0744', 8));
 		return dest;
 	}
 
