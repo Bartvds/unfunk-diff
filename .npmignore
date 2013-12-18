@@ -5,9 +5,13 @@ test
 .jshintrc
 Gruntfile.js
 typings
-tsd-config.json
+/tsd-config.json
+/tsd.json
+/tslint.json
+/tscommand.tmp.txt
 /*.tgz
 /.idea
 /media
 /.travis.yml
 /test/_tmp.test.js
+*.js.map
