@@ -705,4 +705,5 @@ var unfunk;
     })();
     unfunk.DiffFormatter = DiffFormatter;
 })(unfunk || (unfunk = {}));
+(module).exports = unfunk;
 //# sourceMappingURL=index.js.map

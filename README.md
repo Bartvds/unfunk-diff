@@ -6,11 +6,15 @@
 
 ## What?
 
-Most diff renderers you'd find on npm (either object diff or string diffs) are not usable without colours. And then the object diffs usually lack a string diff representation which makes it difficult to spot subtle changes in string values deep in the objects structure. Unfunk-diff aims to integrate both to allow debugging of object difference.
+Most diff renderers you'd find on npm (either object diff or string diffs) are not usable without colours. Object diffs usually lack a string diff representation which makes it difficult to spot subtle changes in string values deep in the objects structure. Unfunk-diff aims to integrate both to allow debugging of object and string differences, optionally without colour support.
 
 * String-diff algorithm is [jsDiff](https://github.com/kpdecker/jsdiff). 
 * Object-diff algorithm is [objectDiff](https://github.com/NV/objectDiff.js) with nested string-diff. May currently be even stricter then your assertions!
-* Style output is [ministyle](https://github.com/Bartvds/ministyle), which bundles with plain text, ANSI and HTML /CSS output.
+* Style output is [ministyle](https://github.com/Bartvds/ministyle), which bundles with plain text, ANSI and HTML / CSS output.
+
+## Examples
+
+See the [travis-ci build log](https://travis-ci.org/Bartvds/unfunk-diff) for various examples (used with [mocha-unfunk-reporter](https://github.com/Bartvds/mocha-unfunk-reporter)).
 
 ## Usage
 
@@ -20,9 +24,28 @@ Install from npm:
 $ npm install unfunk-diff
 ```` 
 
+(it could work browser except I never got around to fix that)
+
+## API
+
+````js
+// get the constructor
+var DiffFormatter = require('unfunk-diff').DiffFormatter;
+
+// get a ministyle
+var style = require('ministyle').ansi();
+
+// pass the ministyle and line wrapping width
+var formatter = new DiffFormatter(style, 80);
+
+// get the wrapped diff
+var str = formatter.getStyledDiff(valueA, valueB);
+console.log(str);
+````
+
 ## Build
 
-Unfunk-diff is written in [TypeScript](http://typescript.com) and built using [grunt](http://gruntjs.com).
+Unfunk-diff is written in [TypeScript](http://typescript.com) and built with [grunt](http://gruntjs.com) using [grunt-ts](https://github.com/basarat/grunt-ts).
 
 Install development dependencies in your git checkout:
 ````
@@ -36,7 +59,6 @@ $ npm install grunt-cli -g
 
 Build and run tests:
 ````
-// self test
 $ grunt
 ````
 

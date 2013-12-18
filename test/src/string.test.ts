@@ -7,12 +7,13 @@ describe('string diffs', () => {
 	var mkdirp = require('mkdirp');
 	var ministyle = <MiniStyle> require('ministyle');
 	var assert:Chai.Assert = require('chai').assert;
+	var unfunk = require('../../build/index');
 
 	// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 	function assertStringDiff(nameA:string, nameB:string, name:string, style, debug:boolean = true) {
-		var stringA = fs.readFileSync(path.join('test', 'fixtures', 'big',  nameA + '.txt'), 'utf8');
-		var stringB = fs.readFileSync(path.join('test', 'fixtures', 'big', nameB + '.txt'), 'utf8');
+		var stringA = fs.readFileSync(helper.getFixturePath('big', nameA + '.txt'), 'utf8');
+		var stringB = fs.readFileSync(helper.getFixturePath('big', nameB + '.txt'), 'utf8');
 		assertStringValueDiff(stringA, stringB, name, style, debug);
 	}
 
@@ -21,7 +22,7 @@ describe('string diffs', () => {
 		var diff = new unfunk.DiffFormatter(style);
 		var actual = diff.getStyledDiff(stringA, stringB);
 
-		var expPath = path.join('test', 'tmp', 'string', name + '.txt');
+		var expPath = helper.getTmpPath('string', name + '.txt');
 		mkdirp.sync(path.dirname(expPath), parseInt('0644', 8));
 		fs.writeFileSync(expPath, actual, 'utf8');
 
@@ -53,12 +54,6 @@ describe('string diffs', () => {
 		});
 		it('should diff same', () => {
 			assertStringValueDiff('aa aa', 'aa aa', 'aa-space-aa', ministyle.plain());
-		});
-		it('should diff aaaa/bbbb', () => {
-			assertStringValueDiff('aaaa', 'bbbb', 'aaaa-bbbb', ministyle.plain());
-		});
-		it('should diff aaaa/bbbb-dev', () => {
-			assertStringValueDiff('aaaa', 'bbbb', 'aaaa-bbbb-dev', ministyle.dev());
 		});
 
 		it('should diff aaaa/bbbb/cccc', () => {

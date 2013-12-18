@@ -7,6 +7,7 @@ describe('string diff', () => {
 	var mkdirp = require('mkdirp');
     var ministyle = <MiniStyle> require('ministyle');
 	var assert:Chai.Assert = require('chai').assert;
+	var unfunk = require('../../build/index');
 
 	// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
@@ -14,8 +15,7 @@ describe('string diff', () => {
 		var diff = new unfunk.DiffFormatter(style);
 		var actual = diff.getStyledDiff(objA, objB);
 
-		var expPath = path.join('test', 'tmp', prefix, name + '.txt');
-		mkdirp.sync(path.dirname(expPath), parseInt('0644', 8));
+		var expPath = helper.getTmpPath(prefix, name + '.txt');
 		fs.writeFileSync(expPath, actual, 'utf8');
 
 		if (debug) {
@@ -24,7 +24,7 @@ describe('string diff', () => {
 			console.log('');
 		}
 
-		var expected = fs.readFileSync(path.join('test', 'fixtures', prefix, name + '.txt'), 'utf8').replace(/\r\n/g, '\n');
+		var expected = fs.readFileSync(helper.getFixturePath(prefix, name + '.txt'), 'utf8').replace(/\r\n/g, '\n');
 		assert.strictEqual(actual, expected);
 	}
 
@@ -59,13 +59,13 @@ describe('string diff', () => {
 				nested: {
 					aa: 'aaab'
 				},
-				lines: fs.readFileSync(path.join('test', 'fixtures', 'big', 'lines-a.txt'), 'utf8')
+				lines: fs.readFileSync(helper.getFixturePath('big', 'lines-a.txt'), 'utf8')
 			};
 			var objB = {
 				nested: {
 					aa: 'abaa'
 				},
-				lines: fs.readFileSync(path.join('test', 'fixtures', 'big', 'lines-b.txt'), 'utf8')
+				lines: fs.readFileSync(helper.getFixturePath('big', 'lines-b.txt'), 'utf8')
 			};
 			assertObjDiff('nested', 'multiline-diff-plain', objA, objB, ministyle.plain());
 		});
