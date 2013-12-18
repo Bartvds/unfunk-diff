@@ -32,7 +32,7 @@ module unfunk {
 
 		//print string diff with indent and wrapping
 		public getWrappingLines(actual:string, expected:string, maxWidth:number, rowPadLength:number, padFirst:string[], leadSymbols:boolean = false):string {
-			var changes:StringDiffChange[] = stringDiff.diffChars(expected, actual);
+			var changes:StringDiffChange[] = stringDiff.diffWordsWithSpace(expected, actual);
 
 			var escape = unfunk.escape;
 			var style = this.diff.style;

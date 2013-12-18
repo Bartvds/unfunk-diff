@@ -56,7 +56,7 @@ var unfunk;
         }
         StringDiffer.prototype.getWrappingLines = function (actual, expected, maxWidth, rowPadLength, padFirst, leadSymbols) {
             if (typeof leadSymbols === "undefined") { leadSymbols = false; }
-            var changes = stringDiff.diffChars(expected, actual);
+            var changes = stringDiff.diffWordsWithSpace(expected, actual);
 
             var escape = unfunk.escape;
             var style = this.diff.style;
@@ -608,7 +608,7 @@ var unfunk;
             this.markEmpty = '  ';
             this.markColum = '| ';
             this.markSpace = '';
-            this.stringMaxLength = 2000;
+            this.stringMaxLength = 5000;
             this.bufferMaxLength = 100;
             this.arrayMaxLength = 100;
             if (maxWidth === 0) {

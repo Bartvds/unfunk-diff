@@ -30,7 +30,7 @@ module unfunk {
 		markColum:string = '| ';
 		markSpace:string = '';
 
-		stringMaxLength:number = 2000;
+		stringMaxLength:number = 5000;
 		bufferMaxLength:number = 100;
 		arrayMaxLength:number = 100;
 

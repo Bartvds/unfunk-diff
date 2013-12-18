@@ -1,0 +1,123 @@
+-  Lorem ipsum dolor sit amet, consectetur adipiscing elit.         Su       spen 
+  "|||||||||||||||||||||||||||||||||||||||||||||||||||||||||++++++++-|+++++++---|"
++  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut males uada mag   n 
+
+      d          i  s     s e    i   mpe r     di             e    t vel    v el  
+  "+++|++++++++++|++|+++++|+|+++-|+++--|+|+++++||+++++++++++++|++++-|||||+++|+-|+"
+   a id nunc faucibus, eu sceler isqu  e risus dignissim. Phasellus  vel conva ll 
+
+   i t  sit   am  e  t varius .  Interdum  et  male    su ada f  ames ac ante ips 
+  "|+-|+|-|+|+||++|++------||+-|+---|---||+-||+--||++++-|+---||++-||------||-----"
+   is  es t. Nam temp      us,  s   e   m a t e  lement um    fer me      nt      
+
+   um       primis in fau cibus.   In    vitae   gravida ips um .   Sed n      ec 
+  "||+|+++++-----||-|---|+|-----|++-|+++---|-|++--|-----|--|+-|+-|++----|++++++--"
+   um, lectu     s  n   unc      co nsec   t etu  r        se m,  co    nvallis   
+
+    venenatis         ipsum, ne c    adipiscing leo. Aliquam   con  vallis  o   r 
+  "|||||||||||++++++++|-|---|-|+-|+++---|||--------||||||||||++-||++-----||+|+++|"
+    venenatis est mauri s     et  tur   pis        . Aliquam rh oncu     s posuer 
+
+    ci   ni     bh,     vitae da  p    i     bus           s  apien   c on vallis 
+  "+--|++-|+++++---|++++---|-|-|++|++++|+++++--|++|++++++++|++---|-|++|+-|+-|----"
+   e   eu ismod.    Null   a   ac porttitor e  st. Pellentesqu   e  laci ni a     
+
+     eget  . Cr       as  nulla dolor, blandit  a c mollis vestibulum, pharetra   
+  "|+|--|++-|-|+++++++||+-----||-------|||||||+||+-|-----|--|-------|--|---|-|-|+"
+    me  tus   rutrum mass     a        blandit, at       s  e       m  p   e r  n 
+
+   i  n    ant  e. In  nec fringilla e nim. Cras feugiat       velit vita e tellu 
+  "|++-|+++--|++-||||+--|------|-----|+----|--|-|------|+++++|+---|||---|+|-|----"
+   isl  luc  tus . Int  e      g     er       a        tortor s   it    ame t     
+
+   s    elei fend cu rsus. Nullam pulvina r l ib er   o    sed velit luctus   fri 
+  "-|+++---|+||----|+-----------------|-|+-||+-|+-|+++-|+++|--||||--|-----|++---|"
+     orc   i fe    ug                 i at  lo bo rtis  quis   vel        sap   i 
+
+    ngilla.   Nulla accumsan fel  is urna ,    v el hendrerit turpis ultricies  v 
+  "+|-----||++----|------|----||++-||---|+-|+++|+-|-------------------|--|---||+-"
+   en     . Ph    a      s    ellu s    at  conva l                   l  i   s n  
+
+   i  tae. P ra e   sent    n u nc  nibh, or  nare  et nisi   qu i  s,  suscipit  
+  "|++---|||+-|+|+++|---|+++|+|+--|+------||++--|-|+--||||||++-|+|++|||+---|----|"
+   ibh   . Ph asellus    rhoncus   t      orto  r  a   nisi fa ucibus, a   c      
+
+     tristique      tur pis.\n 
+  "++--|---|||+|++++--|+------"
+   al  i   quet libe  ro       
+
+   \n 
+  "--"
+      
+
+   Nulla fa c   ilisi. Vestibulum           u  t nul      la            est.    M 
+  "-----|-|+|+++-----|||||||||||||++++++++++|++-|--|++++++||+++++|++++++-|-||+++-"
+          auctor     . Vestibulum non orci quis    libero lacinia iaculi s . Sed  
+
+   orbi         odi   o      v el it   ,  ve  nenat is         sit am  e t     te 
+  "----|++++++++--|+++||+++++|+-|+-|+++-|+-|++-||-|+-|++++|++++----||++|+-|++++-|"
+        luctus l  ibero eget vo lu tpat  p ell en te sque. Null    am vel  cons e 
+
+    mpu  s  qui s,   s    agittis       ac n ibh. Maecenas aliquet diam venenatis 
+  "+--|++-|+-||+--|++|++++--|---|++|++++---|+|--|||||||||||---||----|-----------|"
+   q  uat  d ui.   Suspend  i   sse pote   nti  . Maecenas    qu    i           s 
+
+     diam g ra vida    tempus.      Du  is     tristique vestibulum leo t empor   
+  "|+--|--|+-|+---||+++|---||-|+++++-|++--|++++---|||--|||---|----------|+|----|+"
+    m  a  gn a    a lect   us  vehic ula   mole   sti  e v   i          tae     a 
+
+     ma   ttis.       Cras   ultric ies ,  li gula ve  l  a di pisci ng porta, ri 
+  "++||+++----||++++++-|--|++-----|+-||+-|+||+-|----|++-|+|+-|+-||-|+--|--|-----|"
+   c magna    . Intege r   ne     c  est  aliq u    et,  fac il is is     r     i 
+
+   sus  risu s  ti nci  dunt li bero, quis males ua    
+  "||||+---|+-|+-|+|-|++------|+-----|-----||--|+-|+++"
+   sus e   u,  d ign iss      im           ma  ss a.\n 
+
+      
+  "++"
+   \n 
+
+    da enim augue nec tellus. Suspendisse sit amet  odi o  l       e ctus. Etiam  
+  "+-|----||----|-----|------|------||--------||--|+--|+-|+|+++++++|+-|---|-|-|--"
+   N a    m     e     t             di        am   m  i.  Class apten t     t a   
+
+   nunc  est , sollici   tu  d  in eget    luct  us qu   is, dap  ibus nec  nu  l 
+  "---|+---|+-|||---||+++-|++|++|-----|+++|---|++---||+++---|--|++----|--|+-||++-"
+      ci   ti  so   ciosq u ad li     tora    tor   quent      per       co nubi  
+
+   la.     Pra   e     se nt    sit ame  t fe lis    tristique,      auctor nibh  
+  "-|-|++++-||+++|+++++-|+-|++|+-|---||++---|+--|+|++--||--|||-|+++++|--|--------"
+    a  nost ra, per inc ep tos h i   mena   eo  s. Qu  is  que  sed ma  t         
+
+   ut, facilisis fe  lis. Nam blandit, nisl eget ul  tri cies     soda  l es  , u 
+  "-|-----|--|--|-|++--|||||||-|---|---------|---||++--|+---|+++|+---|++|+-|++-|-"
+    t     i  s    ero  s. Nam  l   i         g   ula   ip   sum, f   acili sis    
+
+   rna  nulla mattis se m,       a   hend  re rit   ma  u ris   nis  l vel    i   
+  "--|+|------|---|-|-|+-||++++++-|++--||++-|+--|++|-|++|+---|++-||++---|-|+++|++"
+     at       m   i   eu , rutrum  co  ndim en  tum  arcu.    Qu isqu   e  sagitt 
+
+    psum.    Maecen as pretium e lit ut accumsan   ornare. Fusce in   era t  tinc 
+  "+-|---|+++--|--|+--------||||+--|||||||||||||+|+|-|--|-----|-|-|++|--|+|+|-|--"
+   i s    bib  e  nd        um es  t ut accumsan. Do n  e     c   non   ante  i   
+
+   idunt, tristiqu  e  se   m in, tincidunt tellus . Fusce   por  t  tit  or cond 
+  "-|----|------||++-|+-|+++---|--|----------|---|+---|--||++-||++|++-||++--|----"
+    d           quam  p elle   n  t          e   sq   u  e la oreet v itae        
+
+   imentum   c onsectetur.   Quisque ligula     lorem, tristique  non ultricies i 
+  "--|-|--|++|+--|-------||++--|-||-------|+|+++|--|----|||--||||+-----------|---"
+     e t   lacu  s       . Al  i qu       am scel  e    ris  que p           e    
+
+   d, vol utpat vitae n e que.  Maur is      a fermentum mauris. Class aptent tac 
+  "-----|+----------|-|+|+|||-|+--||+-|+|++++-|||||||||||--||--------------|---|-"
+        ll          e ntesque  p  uru s, eget  fermentum   ur              n   a  
+
+   iti sociosqu ad litora torquent per conu bia nostra, per inceptos himenaeos.\n 
+  "---|----------------|------|--|---|----|+---|---------|-------|------------|||"
+                       r      u  t   r    um             e       t            .\n 
+
+      
+  "++"
+   \n 
