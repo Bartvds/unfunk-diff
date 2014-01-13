@@ -37,7 +37,7 @@ describe('string diffs', () => {
 		helper.longAssert(actual, expected);
 	}
 
-	function demotringDiff(nameA:string, nameB:string, style) {
+	function demoStringDiff(nameA:string, nameB:string, style) {
 		var stringA = fs.readFileSync(helper.getFixturePath('big', nameA + '.txt'), 'utf8');
 		var stringB = fs.readFileSync(helper.getFixturePath('big', nameB + '.txt'), 'utf8');
 		var diff = new unfunk.DiffFormatter(style || ministyle.ansi());
@@ -94,13 +94,14 @@ describe('string diffs', () => {
 			assertStringDiff('lorem-medium-a', 'lorem-medium-b', 'lorem-medium-diff-plain', ministyle.plain(), false);
 		});
 
-		it('should diff big a/b', () => {
-			demotringDiff('lorem-big-a', 'lorem-big-b',  ministyle.ansi());
-		});
+		/*it('should diff big a/b', () => {
+			demoStringDiff('lorem-big-a', 'lorem-big-b',  ministyle.ansi());
+		});*/
 
-		it('should diff big a/b', () => {
-			demotringDiff('lorem-long-a', 'lorem-long-b',  ministyle.ansi());
-		});
+		/*it('should diff long a/b', () => {
+			demoStringDiff('lorem-long-a', 'lorem-long-b',  ministyle.ansi());
+		});*/
+
 		/*it('should diff big a/b', () => {
 			assertStringDiff('lorem-big-a', 'lorem-big-b', 'lorem-big-diff-plain', ministyle.plain(), false);
 		});*/

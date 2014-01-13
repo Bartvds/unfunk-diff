@@ -56,7 +56,7 @@ var unfunk;
         }
         StringDiffer.prototype.getWrappingLines = function (actual, expected, maxWidth, rowPadLength, padFirst, leadSymbols) {
             if (typeof leadSymbols === "undefined") { leadSymbols = false; }
-            var changes = stringDiff.diffWordsWithSpace(expected, actual);
+            var changes = stringDiff.diffChars(expected, actual);
 
             var escape = unfunk.escape;
             var style = this.diff.style;

@@ -1,6 +1,6 @@
 {
   "name": "unfunk-diff",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Object & string diff rendering for all displays",
   "author": {
     "name": "Bart van der Schoor",
