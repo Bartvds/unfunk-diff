@@ -75,6 +75,7 @@ See the `Gruntfile` for additional commands, including many mocha runners.
 
 ## Versions
 
+* 0.0.2 - Increased string diff limit to 5000.
 * 0.0.1 - Extracted from [mocha-unfunk-reporter](https://github.com/Bartvds/mocha-unfunk-reporter)
 
 ## Credit
