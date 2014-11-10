@@ -10,7 +10,7 @@ The diff renderers on npm (either object diff or string diffs) are not usable on
 
 * String-diff algorithm is [jsDiff](https://github.com/kpdecker/jsdiff). 
 * Object-diff algorithm is [objectDiff](https://github.com/NV/objectDiff.js) with nested string-diff. May currently be even stricter then your assertions!
-* Style output abstracted by [ministyle](https://github.com/Bartvds/ministyle).
+* Style output abstracted by [ministyle](https://github.com/Bartvds/ministyle) (plain-text, css, html, ansi, grunt etc).
 
 ## Examples
 
@@ -31,8 +31,10 @@ $ npm install unfunk-diff
 Minimal:
 
 ````js
-console.log(formatter.ansi(valueA, valueB));
-console.log(formatter.plain(valueA, valueB));
+var unfunk = require('unfunk-diff');
+
+console.log(unfunk.ansi(actual, expected));
+console.log(unfunk.plain(actual, expected));
 ````
 
 Full version:
@@ -48,9 +50,11 @@ var style = require('ministyle').css();
 var formatter = new DiffFormatter(style, 80);
 
 // get the wrapped diff
-var str = formatter.getStyledDiff(valueA, valueB);
+var str = formatter.getStyledDiff(actual, expected);
 console.log(str);
 ````
+
+See the [ministyle](https://github.com/Bartvds/ministyle/) for more output options, like the css output [classes](https://github.com/Bartvds/ministyle/blob/master/README.md#css)
 
 ## Build
 
