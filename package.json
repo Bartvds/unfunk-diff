@@ -32,7 +32,7 @@
     "test": "grunt test"
   },
   "dependencies": {
-    "diff": "~1.0.7",
+    "diff": "~4.0.1",
     "jsesc": "~0.4.3",
     "ministyle": "~0.1.3"
   },
